@@ -2,7 +2,7 @@ let viz;
 
 const vizUrls = {
  
-  SampleSuperStore: "https://public.tableau.com/views/dashboardd_17509251665780/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+  SampleSuperStore: "https://public.tableau.com/views/dashboard_17509498812960/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
   BarChart: "https://public.tableau.com/views/PenjualanTerendahdanTertinggi/Dashboard4?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
   LineChart: "https://public.tableau.com/views/TotalPenjualanPertahun/Dashboard3?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
   PieChart: "https://public.tableau.com/views/DonatChart_17460218932840/Dashboard5?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
