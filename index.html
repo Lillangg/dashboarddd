@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Tableau Dinamis</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="sidebar">
+    <h2>NiceAdmin</h2>
+    <img src="foto.jpeg" alt="Profile" style="width: 120px; height: 120px; border-radius: 50%; display: block; margin: 10px auto;">
+    <h2>M Syamsul Rizal A</h2>
+    
+    <a onclick="loadViz('StrukturData1')">Struktur Data 1</a>
+    <a onclick="loadViz('StrukturData2')">Struktur Data 2</a>
+    <a onclick="loadViz('SampleSuperStore')">Sample Super Store</a>
+    <a onclick="loadViz('BarChart')">Bar Chart</a>
+    <a onclick="loadViz('LineChart')">Line Chart</a>
+    <a onclick="loadViz('PieChart')">Pie Chart</a>
+    <a onclick="loadViz('MapChart')">Map Chart</a>
+    <a onclick="loadViz('ScatterPlot')">Scatter Plot</a>
+    <a onclick="loadViz('BubbleChart')">Bubble Chart</a>
+    <a onclick="loadViz('TreeMap')">Tree Map</a>
+    <a onclick="loadViz('GanttChart')">Gantt Chart</a>
+    <a onclick="loadViz('LollipopChart')">Lollipop Chart</a>
+    <a onclick="loadViz('WordCloud')">Word Cloud</a>
+    <a onclick="loadViz('BoxPilot')">Box Pilot</a>
+    <a onclick="loadViz('Histogram')">Histogram Chart</a>
+  </div>
+
+  <div class="main-content">
+    <h1 id="chartTitle">Pilih Chart</h1>
+    <div id="vizContainer"></div>
+  </div>
+
+  <script src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
